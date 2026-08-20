@@ -9,7 +9,7 @@
     // URL ini bukan credential. Ini hanya alamat Web App Apps Script yang menjadi backend.
     // Ubah setelah deployment bila project Apps Script Anda dibuat ulang.
     window.APP_CONFIG = Object.assign({
-      apiUrl: '',
+      apiUrl: 'https://script.google.com/macros/s/AKfycbxoKJN8aMguHkSM_tzaxmRkfoZx6lXEnRQE-atBKhXGg1RdtNifUNxvPqXHnPCU0pLFFA/exec',
       githubBaseUrl: ''
     }, window.APP_CONFIG || {});
   </script>
